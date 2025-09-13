@@ -9,7 +9,7 @@ model = load_model()
 
 # Add the title to webpage
 st.title("Iris end to end ML Project")
-st.subheader("by Utkarsh Gaikwad")
+st.subheader("by Parag Kulkarni")
 
 # Take the inputs from user
 sep_len = st.number_input("Sepal Length :", min_value=0.00, step=0.01)
@@ -27,4 +27,3 @@ if button:
     st.subheader("Probablility : ")
     st.dataframe(prob_df)
     st.bar_chart(prob_df.T)
-    
