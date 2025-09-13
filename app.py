@@ -27,3 +27,4 @@ if button:
     st.subheader("Probablility : ")
     st.dataframe(prob_df)
     st.bar_chart(prob_df.T)
+    
